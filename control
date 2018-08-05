@@ -1,0 +1,10 @@
+Package: com.kaitouiet.fastforwardtime
+Name: FastForwardTime
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Adds seconds to your lockscreen clock!
+Maintainer: Kiet Ha
+Author: Kiet Ha
+Section: Tweaks
+Depiction: https://idevicehacked.com/repo/depictions/?p=com.idevicehacked.fastforwardtime
