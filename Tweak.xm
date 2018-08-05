@@ -45,7 +45,7 @@ static NSTimer *secondsTimer = nil;
 	if (timeLabel != nil) {
 		// Set the date formatter to hour:minute:second (like stock just extra second)
 		NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-		[dateFormatter setDateFormat:@"h:mm:ss"];
+		[dateFormatter setDateFormat:@"HH:mm:ss"];
 
 		// Get NSString from date and format it using dateFormater then set the time label
 		NSString *currentTimeString = [dateFormatter stringFromDate:[NSDate date]];
